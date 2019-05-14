@@ -10,6 +10,8 @@
 
 编辑器 “撤销重做” 功能。
 
+[demo地址](https://f-star.github.io/web-editor-tutorial/undo/)
+
 #### 2. 选中框显示
 
 开发中。
