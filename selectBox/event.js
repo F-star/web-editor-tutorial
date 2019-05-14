@@ -46,7 +46,9 @@ function highLight(el) {
     // 计算出旋转中心。
     const cx = x + w/2,
         cy = y + h/2;
-    
+   
+    img_cx = cx;
+    img_cy = cy;
     const angle = m.rotation;
     // console.log(angle);
     if (angle != 0) {

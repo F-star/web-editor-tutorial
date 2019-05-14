@@ -49,6 +49,26 @@ function showBBox(el) {
 }
 
 // 计算原来的坐标。
-function calOriginCoordByMatrix() {
+function calOriginCoordByMatrix(x, y, m) {
 
+}
+
+
+// 求逆矩阵
+function calInverseMatrix(obj) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  let m = svg.createSVGMatrix();
+  if (!obj) return null;
+  if (obj.a != undefined) m.a = obj.a;
+  if (obj.b != undefined) m.b = obj.b;
+  if (obj.c != undefined) m.c = obj.c;
+  if (obj.d != undefined) m.d = obj.d;
+  if (obj.e != undefined) m.e = obj.e;
+  if (obj.f != undefined) m.f = obj.f;
+
+  return m.inverse();
+}
+
+function getOriginCoord(x, y, m) {
+  return transformPoint(x, y, calInverseMatrix(m));
 }
