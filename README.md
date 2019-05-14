@@ -10,8 +10,10 @@
 
 编辑器 “撤销重做” 功能。
 
-[demo地址](https://f-star.github.io/web-editor-tutorial/undo/)
+https://f-star.github.io/web-editor-tutorial/undo/
 
-#### 2. 选中框显示
+#### 2. 编辑器层次结构
 
-开发中。
+DOM结构设计。
+
+https://f-star.github.io/web-editor-tutorial/canvas/
