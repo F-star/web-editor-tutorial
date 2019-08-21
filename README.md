@@ -17,3 +17,7 @@ https://f-star.github.io/web-editor-tutorial/undo/
 DOM结构设计。
 
 https://f-star.github.io/web-editor-tutorial/canvas/
+
+#### 3. path 元素缩放（没有使用 transform 方案，可以等比缩放）
+
+https://f-star.github.io/web-editor-tutorial/scale/
