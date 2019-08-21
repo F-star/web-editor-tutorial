@@ -20,4 +20,6 @@ https://f-star.github.io/web-editor-tutorial/canvas/
 
 #### 3. path 元素缩放（没有使用 transform 方案，可以等比缩放）
 
+demo 可以运行在 Chrome 浏览器，在 Firefox 运行会有问题。这样因为不同浏览器的 e.offsetX / e.offsetY 在 svg 里的行为不同。
+
 https://f-star.github.io/web-editor-tutorial/scale/
