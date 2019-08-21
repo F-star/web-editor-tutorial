@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>缩放功能（不使用 transform 属性）</title>
+    <style>
+        #workarea {
+            /* width: 800px;
+            height: 600px; */
+            border: 1px solid #333;
+            background-color: #f2f3f5;
+            overflow: scroll;
+        }
+        span {
+            margin-right: 100px;
+            font-size: 12px;
+        }
+        #selectedBox rect:hover{
+            stroke: #f04;
+        }
+    </style>
+</head>
+<body>
+    <div id="workarea" style="width: 700px; height: 550px;">
+        <div id="svgcanvas"></div>
+    </div>
+    <span>按住 shift 并拖动，进行等比缩放</span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.6/svg.js"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
