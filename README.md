@@ -4,6 +4,10 @@
 
 因为使用了 ES6 的 import 语法，所以需要在静态服务器下运行。建议使用 vscode 的 live server 插件。
 
+### svg 编辑器文章
+
+https://blog.fstars.wang/categories/svg%E7%BC%96%E8%BE%91%E5%99%A8/
+
 ### 教程目录（更新中）
 
 #### 1. 撤销重做功能
